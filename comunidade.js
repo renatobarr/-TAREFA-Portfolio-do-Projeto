@@ -5,3 +5,7 @@ document.getElementById("quemSomos").addEventListener("click", function(){
 document.getElementById("telaInicial").addEventListener("click", function(){
     window.location.href = "index.html"
 });
+
+document.getElementById("docs").addEventListener("click", function(){
+    window.location.href = "docs.html"
+});
