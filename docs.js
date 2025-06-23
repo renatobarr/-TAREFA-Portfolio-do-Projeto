@@ -25,11 +25,11 @@ function openPDF1() {
 
 
   function openPDF4() {
-    window.open("./docs/vision_informal.pdf", "_blank");
+    window.open("./docs/DER e Workflow (To Be).pdf", "_blank");
   }
 
 
   function openPDF5() {
-    window.open("./docs/vision_informal.pdf", "_blank");
+    window.open("./docs/DER e Workflow (To Be).pdf", "_blank");
   }
 
