@@ -1,0 +1,51 @@
+/* Cabeçalho */
+.header-section { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgb(17, 16, 16);
+    border-bottom: 1px solid #ddd;
+    position : sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo + Título */
+.header-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-image {
+    width: 80px;
+    height: auto;
+}
+
+.header-title-text {
+    font-size: 2.5rem;
+    font-family:  'Pixelify Sans', sans-serif;
+    color: rgb(0, 255, 0);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    font-family:"Pixelify Sans", sans-serif;
+    text-decoration: none;
+    color: rgba(0,255,0);
+    font-weight: 500;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: rgb(0, 180, 0);
+}
